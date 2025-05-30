@@ -1,0 +1,46 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #00264d;
+    background-color: #f8f9fa;
+}
+
+/* Banner Styling */
+header .banner {
+    background-color: #87CEEB;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header .banner h1 {
+    color: #00264d;
+    font-size: 2rem;
+}
+
+/* Box Styling */
+.box-style {
+    background-color: #87CEEB;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #00264d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

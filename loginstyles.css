@@ -1,0 +1,151 @@
+.menu-strip {
+    background-color: #87CEEB; /* Light Blue */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu-strip {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #87CEEB;
+    padding: 10px 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.menu-items {
+    flex: 1; /* Takes up remaining space */
+    display: flex;
+    justify-content: center; /* Centers the menu items horizontally */
+    gap: 20px; /* Adds spacing between the menu options */
+}
+
+.menu-strip a {
+    text-decoration: none;
+    color: #00264d;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu-strip a:hover {
+    text-decoration: underline;
+}
+.login-button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #00264d; 
+    color: white;
+    border: 1px solid #ffcc00; 
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.login-button:hover {
+    background-color: #ffcc00; 
+    color: #00264d; 
+    border: 1px solid #00264d; 
+} 
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #00264d;
+    background-image: url('wave.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+/* Login Section */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    
+    padding: 20px;
+}
+
+.login-container {
+    width: 30%; 
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #87CEEB; /* Light blue theme */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h1 {
+    color: #00264d; /* Dark blue color for text */
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #00264d;
+    font-size: 17px;
+    text-align: center;
+}
+
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #00264d;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #00264d; /* Dark blue button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #ffcc00; 
+    color: #00264d; /* Dark blue text */
+}
+
+/* Alternative Login Styling */
+.alternative-login p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #00264d;
+}
+
+.google-login, .facebook-login {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%; /* Stretch button width */
+}
+
+.google-login {
+    background-color: #db4437; /* Google red theme */
+    color: white;
+}
+
+.google-login:hover {
+    background-color: #b03a2e; /* Slightly darker red on hover */
+}
+
+.facebook-login {
+    background-color: #4267B2; /* Facebook blue theme */
+    color: white;
+}
+
+.facebook-login:hover {
+    background-color: #365899; /* Slightly darker blue on hover */
+}

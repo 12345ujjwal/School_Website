@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="loginstyles.css"> 
+    <link rel="stylesheet" href="loginstyles.css">
+</head>
+<body>
+<header>
+    <div class="menu-strip">
+        <div class="menu-items">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="career.html">Career</a>
+            <a href="index.html" class="login-link">
+            <button class="login-button">Back</button>
+            </a>
+        </div>
+    </div>
+</header>
+
+    <!-- Login Section -->
+    <main>
+        <section class="login-section">
+            <div class="login-container box-style">
+                <h1>Login</h1>
+                <form id="login-form">
+                    <!-- Username and Password Login -->
+                    <div class="form-group">
+                    <form method="POST" action="login.php">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+
+                        <button type="submit" class="submit-button">Login</button>  
+                    </div>
+                </form><br>
+<a href="user_reg.html" class="submit-button" style="display: inline-block; text-align: center; padding: 10px 20px; background-color: #00264d; color: white; text-decoration: none; border-radius: 5px; font-size: 14px;">New User</a>
+
+                <!-- Other Login Methods -->
+                <div class="alternative-login">
+                    <p>Or login using:</p>
+                    <button class="google-login">Login with Google</button>
+                    <button class="facebook-login">Login with Facebook</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #00264d;
+    background-color: #f8f9fa;
+}
+
+/* Banner Styling */
+header .banner {
+    background-color: #87CEEB;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header .banner h1 {
+    color: #00264d;
+    font-size: 2rem;
+}
+
+/* Gallery Section */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 15px; /* Spacing between items */
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto; /* Center align the grid */
+}
+
+.gallery-item img {
+    width: 100%; /* Make image fill the grid item */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded edges for images */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+

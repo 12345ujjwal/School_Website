@@ -1,0 +1,241 @@
+/* Video Background */
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure it stays in the background */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+
+/* Top Strip Styles */
+.top-strip {
+    background-color: #00264d;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.top-strip a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.top-strip a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Menu */
+.menu-strip {
+    background-color: #87CEEB; /* Light Blue */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu-strip {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #87CEEB;
+    padding: 10px 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.menu-items {
+    flex: 1; /* Takes up remaining space */
+    display: flex;
+    justify-content: center; /* Centers the menu items horizontally */
+    gap: 20px; /* Adds spacing between the menu options */
+}
+
+.menu-strip a {
+    text-decoration: none;
+    color: #00264d;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu-strip a:hover {
+    text-decoration: underline;
+}
+.login-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #00264d; 
+    color: white;
+    border: 1px solid #ffcc00; 
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background-color: #ffcc00; 
+    color: #00264d; 
+    border: 1px solid #00264d; 
+}
+
+/* Header Banner */
+header .banner {
+    background-color: #0080ff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.slider {
+    width: 70%;
+    margin: 10px auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #87CEEB;
+} 
+
+.welcome-text {
+    color: #00264d; 
+    font-size: 2.5rem; 
+    margin: 10px auto; 
+    font-family: Arial, sans-serif;
+    text-align: center; 
+}
+
+.slider img {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Styling for the About Section and contact us section*/
+.box-style {
+    background-color: #87CEEB;
+    padding: 20px;
+    border-radius: 15px;
+    width: 70%; 
+    margin: 20px auto; 
+    text-align: center; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow effect */
+    font-family: Arial, sans-serif; 
+    color: #00264d;
+}
+/* Additional Styles for Form Elements in Contact Section */
+form label, form input, form textarea, form button {
+    display: block;
+    margin: 10px 0; 
+    text-align: center; 
+}
+
+form input, form textarea {
+    width: 95%; /* Adjust field width inside the box */
+    padding: 10px;
+    border-radius: 5px; /* Rounded edges for input fields */
+    border: 1px solid #00264d; /* Border for input fields */
+}
+form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #00264d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #0056b3; 
+}
+/* Footer Container */
+footer {
+    background-color: #00264d; /* Dark blue background */
+    color: white;
+    padding: 20px 10px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Adjusts for small screens */
+    padding: 20px;
+}
+
+.footer-logo {
+    flex: 1;
+    max-width: 300px;
+}
+
+.footer-logo img {
+    width: 100px; /* Adjust logo size */
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ffcc00; /* Golden yellow for motto */
+}
+
+/* Footer Columns */
+.footer-column {
+    flex: 1;
+    max-width: 300px;
+    margin: 0 10px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffcc00; /* Golden yellow for headings */
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.footer-column address {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    border-top: 1px solid #ffcc00; /* Golden yellow border */
+    margin-top: 20px;
+}

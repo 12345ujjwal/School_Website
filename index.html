@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Code by Ujjwal Pratap Singh -->
+    <div class="top-strip">
+        <div class="left-section">
+            Developed by:Ujjwal Pratap Singh | Linkdin: <a href="https://www.linkedin.com/in/ujjwal-pratap-singh" target="_blank">Visit Profile</a>
+        </div>
+        <div class="right-section">
+            Address: KMCLU, Lucknow
+        </div>
+   </div>
+<header>
+    <div class="menu-strip">
+        <div class="menu-items">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="career.html">Career</a>
+        </div>
+        <a href="login.html" class="login-link">
+        <button class="login-button">Login</button>
+        </a>
+    </div>
+</header>
+<video autoplay muted loop id="background-video">
+        <source src="video2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+</video>
+    <header>
+        <div class="slider">
+        <img id="slider-image" src="image1.jpg" alt="Image Slider">
+                <h1 class='welcome-text'>Welcome to Sun Shine Public School</h1>
+        </div>
+    </header>
+   <main>
+        <section id="about">
+        <div class="box-style">
+            <h2>About Us</h2>
+             <img src="school-image.jpg" alt="School Image" style="width: 100%; height: auto; border-radius: 10px; margin-bottom: 20px;">
+
+            <p>Sun Shine Public School run by a social organization named "SARVODAYA JAN KALYAN SAMITI" which was formally inaugurated & laid its foundation stone on December 8, 2006 by Honorable Shri Kailash Singh Yadav Ji, (Industrial Minister, U.P. Government). The dream of the honorable Chairman of the Samiti Shri. S.N. Singh Ji, is harmonious development of all aspects of a child's personality to face the challenging world. Sun Shine is a premier institution located in a lush green surrounding covering 2.5 acres of land. Sun Shine Piblic School is away from the humdrum of life giving a perfect educational atmosphere, well connected with road and rail. Nearest railway station is only 7km from school campus. The school has permanent infrastructural building with a spacious playground spread in 1.5 acres of land, combined with modern teaching aid and carefully drawn faculty members from every corner of the country.</p>
+        </div>
+
+        </section>
+        <section id="contact">
+        <div class="box-style">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="button" onclick="submitForm()">Submit</button>
+            </form>
+         </div>
+        </section>
+<footer>
+    <div class="footer-container">
+        <!-- Left Section: Logo and Motto -->
+        <div class="footer-logo">
+            <img src="logo.png" alt="School Logo">
+            <p>"To impart value-based quality education by synthesizing the rich ancient Indian heritage with modern Science and Technology."</p>
+        </div>
+
+        <!-- Middle Section: Sitemap -->
+        <div class="footer-column">
+            <h3>Sitemap</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="events.html">Event</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Right Section: Contact Information -->
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <address>
+                Kasera Pokhara, Zamania, Ghazipur, U.P.-232329<br>
+                Phone: 05497-252117, 252118<br>
+                Email: <a href="mailto:sunshinezamania@gmail.com">sunshinezamania@gmail.com</a>
+            </address>
+        </div>
+    </div>
+
+    <!-- Bottom Copyright -->
+    <div class="footer-bottom">
+        <p>Copyright © 2025-26 Sun Shine Public School | All Rights Reserved</p>
+        <p>Designed & Developed by Ujjwal Pratap Singh</p>
+    </div>
+</footer>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
